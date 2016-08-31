@@ -1,0 +1,1275 @@
+{
+  "TranslationLanguageCode": "en",
+  "CheckForUpdates": true,
+  "AutoUpdate": false,
+  "TransferConfigAndAuthOnUpdate": true,
+  "UseWebsocket": false,
+  "WebSocketPort": 14251,
+  "UseTelegramAPI": false,
+  "TelegramAPIKey": null,
+  "TelegramPassword": "12345",
+  "StartupWelcomeDelay": false,
+  "AmountOfPokemonToDisplayOnStart": 10,
+  "DetailedCountsBeforeRecycling": true,
+  "CatchPokemon": true,
+  "MaxBerriesToUsePerPokemon": 3,
+  "AutomaticallyLevelUpPokemon": false,
+  "OnlyUpgradeFavorites": true,
+  "UseLevelUpList": true,
+  "AmountOfTimesToUpgradeLoop": 5,
+  "GetMinStarDustForLevelUp": 5000,
+  "LevelUpByCPorIv": "iv",
+  "UpgradePokemonCpMinimum": 1000.0,
+  "UpgradePokemonIvMinimum": 95.0,
+  "UpgradePokemonMinimumStatsOperator": "and",
+  "DisableHumanWalking": true,
+  "DefaultLatitude": 51.507446990597629,
+  "DefaultLongitude": -0.12756586074829102,
+  "WalkingSpeedInKilometerPerHour": 60000.0,
+  "MaxSpawnLocationOffset": 10,
+  "FastSoftBanBypass": true,
+  "DelayBetweenPlayerActions": 0,
+  "DelayBetweenPokemonCatch": 0,
+  "DumpPokemonStats": true,
+  "EvolveAboveIvValue": 1.0,
+  "EvolveAllPokemonAboveIv": false,
+  "EvolveAllPokemonWithEnoughCandy": true,
+  "EvolveKeptPokemonsAtStorageUsagePercentage": 90.0,
+  "KeepPokemonsThatCanEvolve": false,
+  "KeepMinCp": 100,
+  "KeepMinIvPercentage": 95.0,
+  "KeepMinLvl": 6,
+  "KeepMinOperator": "and",
+  "UseKeepMinLvl": false,
+  "PrioritizeIvOverCp": true,
+  "KeepMinDuplicatePokemon": 1,
+  "UseGpxPathing": false,
+  "GpxFile": "GPXPath.GPX",
+  "VerboseRecycling": true,
+  "RecycleInventoryAtUsagePercentage": 90.0,
+  "RandomizeRecycle": false,
+  "RandomRecycleValue": 5,
+  "DelayBetweenRecycleActions": false,
+  "UseEggIncubators": true,
+  "UseEggIncubatorMinKm": 2,
+  "UseLuckyEggConstantly": false,
+  "UseLuckyEggsMinPokemonAmount": 30,
+  "UseLuckyEggsWhileEvolving": true,
+  "UseIncenseConstantly": false,
+  "UseBerriesMinCp": 0,
+  "UseBerriesMinIv": 0.0,
+  "UseBerriesBelowCatchProbability": 0.0,
+  "UseBerriesOperator": "and",
+  "UseSnipeLocationServer": false,
+  "SnipeLocationServer": "localhost",
+  "SnipeLocationServerPort": 16969,
+  "GetSniperInfoFromPokezz": false,
+  "GetOnlyVerifiedSniperInfoFromPokezz": true,
+  "GetSniperInfoFromPokeSnipers": true,
+  "GetSniperInfoFromPokeWatchers": true,
+  "GetSniperInfoFromSkiplagged": true,
+  "MinPokeballsToSnipe": 50,
+  "MinPokeballsWhileSnipe": 0,
+  "MinDelayBetweenSnipes": 60000,
+  "SnipingScanOffset": 1.0,
+  "SnipeAtPokestops": true,
+  "SnipeIgnoreUnknownIv": false,
+  "UseTransferIvForSnipe": false,
+  "SnipePokemonNotInPokedex": false,
+  "RenamePokemon": false,
+  "RenameOnlyAboveIv": true,
+  "RenameTemplate": "{1}_{0}",
+  "MaxPokeballsPerPokemon": 6,
+  "MaxTravelDistanceInMeters": 2000,
+  "TotalAmountOfPokeballsToKeep": 300,
+  "TotalAmountOfPotionsToKeep": 0,
+  "TotalAmountOfRevivesToKeep": 0,
+  "TotalAmountOfBerriesToKeep": 50,
+  "UseGreatBallAboveCp": 750,
+  "UseUltraBallAboveCp": 1000,
+  "UseMasterBallAboveCp": 1500,
+  "UseGreatBallAboveIv": 80.0,
+  "UseUltraBallAboveIv": 90.0,
+  "UseGreatBallBelowCatchProbability": 0.0,
+  "UseUltraBallBelowCatchProbability": 0.0,
+  "UseMasterBallBelowCatchProbability": 0.0,
+  "EnableHumanizedThrows": false,
+  "NiceThrowChance": 0,
+  "GreatThrowChance": 0,
+  "ExcellentThrowChance": 100,
+  "CurveThrowChance": 100,
+  "ForceGreatThrowOverIv": 9220.0,
+  "ForceExcellentThrowOverIv": 1.0,
+  "ForceGreatThrowOverCp": 1000000,
+  "ForceExcellentThrowOverCp": 0,
+  "TransferWeakPokemon": false,
+  "TransferDuplicatePokemon": true,
+  "TransferDuplicatePokemonOnCapture": false,
+  "FavoriteMinIvPercentage": 95.0,
+  "AutoFavoritePokemon": false,
+  "UsePokemonToNotCatchFilter": true,
+  "UsePokemonSniperFilterOnly": false,
+  "ItemRecycleFilter": [
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    },
+    {
+      "Key": "itemUnknown",
+      "Value": 0
+    },
+    {
+      "Key": "itemLuckyEgg",
+      "Value": 200
+    },
+    {
+      "Key": "itemIncenseOrdinary",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseSpicy",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseCool",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncenseFloral",
+      "Value": 100
+    },
+    {
+      "Key": "itemTroyDisk",
+      "Value": 100
+    },
+    {
+      "Key": "itemXAttack",
+      "Value": 100
+    },
+    {
+      "Key": "itemXDefense",
+      "Value": 100
+    },
+    {
+      "Key": "itemXMiracle",
+      "Value": 100
+    },
+    {
+      "Key": "itemRazzBerry",
+      "Value": 200
+    },
+    {
+      "Key": "itemBlukBerry",
+      "Value": 10
+    },
+    {
+      "Key": "itemNanabBerry",
+      "Value": 10
+    },
+    {
+      "Key": "itemWeparBerry",
+      "Value": 30
+    },
+    {
+      "Key": "itemPinapBerry",
+      "Value": 30
+    },
+    {
+      "Key": "itemSpecialCamera",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasicUnlimited",
+      "Value": 100
+    },
+    {
+      "Key": "itemIncubatorBasic",
+      "Value": 100
+    },
+    {
+      "Key": "itemPokemonStorageUpgrade",
+      "Value": 1000
+    },
+    {
+      "Key": "itemItemStorageUpgrade",
+      "Value": 100
+    }
+  ],
+  "PokemonsNotToTransfer": [
+    "gyarados",
+    "ditto",
+    "snorlax",
+    "articuno",
+    "zapdos",
+    "moltres",
+    "dragonite",
+    "mewtwo",
+    "mew"
+  ],
+  "PokemonsToEvolve": [
+    "bulbasaur",
+    "ivysaur",
+    "venusaur",
+    "charmander",
+    "charmeleon",
+    "charizard",
+    "squirtle",
+    "wartortle",
+    "blastoise",
+    "caterpie",
+    "metapod",
+    "butterfree",
+    "weedle",
+    "kakuna",
+    "beedrill",
+    "pidgey",
+    "pidgeotto",
+    "pidgeot",
+    "rattata",
+    "raticate",
+    "spearow",
+    "fearow",
+    "ekans",
+    "arbok",
+    "pikachu",
+    "raichu",
+    "sandshrew",
+    "sandslash",
+    "nidorina",
+    "nidoqueen",
+    "nidorino",
+    "nidoking",
+    "clefairy",
+    "clefable",
+    "vulpix",
+    "ninetales",
+    "jigglypuff",
+    "wigglytuff",
+    "zubat",
+    "golbat",
+    "oddish",
+    "gloom",
+    "vileplume",
+    "paras",
+    "parasect",
+    "venonat",
+    "venomoth",
+    "diglett",
+    "dugtrio",
+    "meowth",
+    "persian",
+    "psyduck",
+    "golduck",
+    "mankey",
+    "primeape",
+    "growlithe",
+    "arcanine",
+    "poliwag",
+    "poliwhirl",
+    "poliwrath",
+    "abra",
+    "kadabra",
+    "alakazam",
+    "machop",
+    "machoke",
+    "machamp",
+    "bellsprout",
+    "weepinbell",
+    "victreebel",
+    "tentacool",
+    "tentacruel",
+    "geodude",
+    "graveler",
+    "golem",
+    "ponyta",
+    "rapidash",
+    "slowpoke",
+    "slowbro",
+    "magnemite",
+    "magneton",
+    "doduo",
+    "dodrio",
+    "seel",
+    "dewgong",
+    "grimer",
+    "muk",
+    "shellder",
+    "cloyster",
+    "gastly",
+    "haunter",
+    "gengar",
+    "onix",
+    "drowzee",
+    "hypno",
+    "krabby",
+    "kingler",
+    "voltorb",
+    "electrode",
+    "exeggcute",
+    "exeggutor",
+    "cubone",
+    "marowak",
+    "hitmonlee",
+    "hitmonchan",
+    "lickitung",
+    "koffing",
+    "weezing",
+    "rhyhorn",
+    "rhydon",
+    "chansey",
+    "tangela",
+    "kangaskhan",
+    "horsea",
+    "seadra",
+    "goldeen",
+    "seaking",
+    "staryu",
+    "starmie",
+    "scyther",
+    "jynx",
+    "electabuzz",
+    "magmar",
+    "pinsir",
+    "tauros",
+    "gyarados",
+    "lapras",
+    "ditto",
+    "eevee",
+    "vaporeon",
+    "jolteon",
+    "flareon",
+    "porygon",
+    "omanyte",
+    "omastar",
+    "kabuto",
+    "kabutops",
+    "aerodactyl",
+    "snorlax",
+    "articuno",
+    "zapdos",
+    "moltres",
+    "dragonite",
+    "mewtwo",
+    "mew"
+  ],
+  "PokemonsToLevelUp": [],
+  "PokemonsToIgnore": [
+    "mew"
+  ],
+  "PokemonsTransferFilter": {
+    "Mewtwo": {
+      "KeepMinCp": 1500,
+      "KeepMinLvl": 0,
+      "UseKeepMinLvl": false,
+      "KeepMinIvPercentage": 95.0,
+      "KeepMinDuplicatePokemon": 1,
+      "Moves": [
+        []
+      ],
+      "DeprecatedMoves": [],
+      "KeepMinOperator": "or",
+      "MovesOperator": "or"
+    }
+  },
+  "PokemonToSnipe": {
+    "Locations": [
+      {
+        "Latitude": 35.6328964,
+        "Longitude": 139.8803943
+      },
+      {
+        "Latitude": 40.712784,
+        "Longitude": -74.005941
+      },
+      {
+        "Latitude": 38.907192,
+        "Longitude": -77.036871
+      },
+      {
+        "Latitude": 37.77493,
+        "Longitude": -122.419416
+      },
+      {
+        "Latitude": 52.520007,
+        "Longitude": 13.404954
+      },
+      {
+        "Latitude": 45.030148,
+        "Longitude": -93.319312
+      },
+      {
+        "Latitude": -33.872065,
+        "Longitude": 151.208195
+      },
+      {
+        "Latitude": -37.57814,
+        "Longitude": 144.922
+      },
+      {
+        "Latitude": 53.376694,
+        "Longitude": -6.277755
+      },
+      {
+        "Latitude": 41.640467,
+        "Longitude": -4.734827
+      },
+      {
+        "Latitude": 51.507351,
+        "Longitude": -0.127758
+      }
+    ],
+    "Pokemon": [
+      "bulbasaur",
+      "charmander",
+      "squirtle",
+      "caterpie",
+      "metapod",
+      "butterfree",
+      "weedle",
+      "kakuna",
+      "pidgey",
+      "rattata",
+      "raticate",
+      "spearow",
+      "fearow",
+      "ekans",
+      "pikachu",
+      "sandshrew",
+      "nidorina",
+      "clefairy",
+      "jigglypuff",
+      "zubat",
+      "golbat",
+      "oddish",
+      "vileplume",
+      "parasect",
+      "venonat",
+      "venomoth",
+      "diglett",
+      "persian",
+      "psyduck",
+      "poliwag",
+      "machop",
+      "bellsprout",
+      "weepinbell",
+      "tentacool",
+      "tentacruel",
+      "geodude",
+      "graveler",
+      "golem",
+      "ponyta",
+      "slowpoke",
+      "magnemite",
+      "krabby",
+      "voltorb",
+      "exeggcute",
+      "cubone",
+      "marowak",
+      "koffing",
+      "rhyhorn",
+      "tangela",
+      "horsea",
+      "goldeen",
+      "staryu",
+      "scyther",
+      "jynx",
+      "electabuzz",
+      "magmar",
+      "pinsir",
+      "tauros",
+      "gyarados",
+      "lapras",
+      "ditto",
+      "eevee",
+      "articuno",
+      "zapdos",
+      "moltres",
+      "dragonite",
+      "mewtwo",
+      "mew"
+    ]
+  },
+  "PokemonToUseMasterball": [
+    "articuno",
+    "zapdos",
+    "moltres",
+    "mewtwo",
+    "mew"
+  ]
+}
